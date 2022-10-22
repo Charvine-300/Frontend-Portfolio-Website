@@ -22,6 +22,10 @@
 
         .project {
             @include container(45%, 100%, 10px 2.5%);
+
+            &:visited {
+                color: $White;
+            }
         }
     }
 
