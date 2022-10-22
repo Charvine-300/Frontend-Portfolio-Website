@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../assets/styles/header.scss'
-import Menu from '../assets/images/Menu.svg'
+import Menu from '../assets/images/menu.svg'
 import { Link } from 'react-router-dom';
 
 const Header = () => {
