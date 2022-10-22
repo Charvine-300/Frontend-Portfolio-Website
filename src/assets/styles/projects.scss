@@ -1,0 +1,51 @@
+@import 'mixinsVariables';
+
+
+
+
+/*==========  ID Rules  ==========*/
+
+
+
+
+/*==========  Class Rules  ==========*/
+.project-wrapper {
+    padding: 20px 0px;
+}
+
+.my-projects {
+    @include container(100%, 100%, 30px auto);
+    @include flexboxWrap(column, center, center);
+
+    @include minWidth(768px) {
+        @include flexboxWrap(row, flex-start, flex-start);
+
+        .project {
+            @include container(45%, 100%, 10px 2.5%);
+        }
+    }
+
+    @include desktopView {
+        width: 90%;
+       
+        .project {
+            @include container(30%, 100%, 10px 1.5%);
+        }
+    }
+}
+
+
+
+
+/*==========  Element Rules  ==========*/
+h3 {
+    font-size: 30px;
+    font-family: 'Prata';
+    text-align: center;
+
+    @include desktopView {
+        font-size: 50px;
+        font-weight: 800;
+    }
+
+}

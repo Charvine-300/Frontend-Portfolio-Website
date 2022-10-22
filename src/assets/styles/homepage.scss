@@ -1,0 +1,171 @@
+@import 'mixinsVariables';
+
+
+
+
+/*==========  ID Rules  ==========*/
+#project-slider {
+    min-height: 430px;
+
+    .swiper-button-next, .swiper-button-prev {
+        display: none !important;
+    }
+
+    .swiper-pagination-bullet {
+        background-color: $InputBorder;
+        margin: 0px 10px !important;
+        opacity: 1;
+    }
+      
+      .swiper-pagination-bullet-active {
+        background-color: $White;
+        border: 2px solid $White;
+    }
+    
+
+    @include desktopView {
+        .swiper-slide {
+            width: 30% !important;
+        }
+
+        .swiper-pagination-bullet, .swiper-pagination-bullet-active {
+            display: none !important;
+        }
+
+        .swiper-wrapper {
+            transform: translate3d(0px, 0px, 0px) !important;
+            justify-content: space-evenly;
+        }
+    }
+}
+
+
+
+/*==========  Class Rules  ==========*/
+.about-wrapper {
+    @include container(90%, 100%, 30px auto);
+
+    h2 {
+        font-family: 'Prata';
+        color: $White;
+        font-size: 30px;
+    }
+
+    button {
+        margin: 20px 0px;
+    }
+
+
+    @include minWidth(820px) {
+        @include container(50%, 100%, 50px 0 20px 5%);
+
+        h2 {
+            font-size: 50px;
+            margin: 10px 0px;
+        }
+    }
+
+    @include desktopView {
+        @include container(40%, 100%, 50px 0 20px 5%);
+
+        h2 {
+            font-size: 50px;
+            margin: 10px 0px;
+        }
+    }
+}
+
+.project {
+    display: block;
+    @include container(80%, 100%, 20px auto);
+    cursor: pointer;
+    
+    .project-display {
+        @include container(100%, 100%, 20px auto);
+        max-height: 170px;
+        overflow: hidden;
+    }
+
+    a {
+        @include flexboxWrap(row, flex-start, center);
+        cursor: pointer;
+        text-decoration: none;
+
+        img {
+            @include container(30px, 30px, 0px 10px);
+        }
+
+        &:visited {
+            color: $White;
+        }
+    }
+
+    h3 {
+        font-size: 25px;
+        font-family: 'Prata';
+        margin: 5px 0;
+    }
+
+    @include minWidth(820px) {
+        .project-display {
+            max-height: 400px;
+        }
+    }
+
+    @include landscapeSet {
+        .project-display {
+            max-height: 400px;
+        }
+    }
+}
+
+.view-all {
+    border: none;
+    display: block;
+    margin: 20px auto 40px auto;
+    padding: 15px 50px 15px 30px;
+    color: $Black;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Prata';
+    background-color: $White;
+
+    img {
+        @include container(20px, 20px, auto);
+        position: absolute;
+        top: 0;
+        padding-left: 5px;
+        bottom: 0;
+    }
+}
+
+.project-link {
+    @include flexboxWrap(row, flex-start, center);
+
+
+    h3 {
+        text-align: left;
+        display: inline;
+    }
+
+    img {
+        padding-left: 5px;
+    }
+}
+
+.email-wrapper {
+    @include container(100%, 100%, 40px auto);
+    background-color: $InputBorder;
+    padding: 20px 0px;
+}
+
+
+/*==========  Element Rules  ==========*/
+p {
+    color: $Grey;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Inter';  
+}

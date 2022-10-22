@@ -1,0 +1,111 @@
+@import 'mixinsVariables';
+
+
+
+/*==========  ID Rules  ==========*/
+#mobile-navbar {
+    background-color: $Black;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 54px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 20px rgba(128, 128, 128, 0.3);
+   
+    li {
+        display: list-item;
+        margin: 0;
+        padding: 0 25px;
+    }
+
+    @include desktopView {
+        display: none !important;
+    }
+}
+
+
+
+
+/*==========  Class Rules  ==========*/
+.mobile {
+    @include desktopView {
+        display: none;
+    }
+}
+
+.desktop {
+    @include maxWidth(1023px) {
+        display: none;
+    }
+}
+
+.in-touch {
+    border: none;
+    padding: 10px 20px;
+    color: $Black;
+    font-weight: 600;
+    font-family: 'Prata';
+    background-color: $Yellow;
+}
+
+.header-wrapper {
+    @include container(100%, fit-content, 0px auto);
+    padding: 15px 0px;
+    background-color: $Black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 0px 15px rgba(75, 75, 75, 0.1);
+
+    header {
+        position: relative;
+        @include container(90%, fit-content, 0px auto);
+        @include flexboxWrap(row, space-between, center);
+    }
+}
+
+
+
+
+
+/*==========  Element Rules  ==========*/
+h1 {
+    font-size: 20px;
+    font-family: 'Prata';
+    color: $White;
+
+    @include desktopView {
+        h1 {
+            font-size: 32px;
+        }
+    }
+}
+
+ul {
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+    font-family: 'Inter';
+ 
+    a {
+        margin: 0px 20px;
+        cursor: pointer;
+        height: fit-content !important;
+    }
+
+    li {
+        display: inline-block;
+    }
+}
+
+footer {
+    @include container(90%, 100%, 30px auto);
+    @include flexboxWrap(row, space-between, center);
+
+    .social-links {
+        a {
+            margin: 0px 5px;
+        }
+    }
+}
