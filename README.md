@@ -5,7 +5,7 @@ This is the portfolio of Chidera Ezenwekwe, a frontend developer and more ✨
 
 ## Demo Link:
 
-Access the website at: [Portfolio](https://chidera-ezenwekwe.netlify.app)
+Access the website at: [Portfolio](https://chidera-ezenwekwe.vercel.app/)
 
 
 ## Screenshots
