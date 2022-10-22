@@ -1,7 +1,7 @@
 import '../assets/styles/header.scss'
-import Github from '../assets/images/github.svg'
-import Linkedin from '../assets/images/linkedin.svg'
-import Twitter from '../assets/images/twitter.svg'
+import Github from '../assets/images/github.png'
+import Linkedin from '../assets/images/linkedin.png'
+import Twitter from '../assets/images/twitter.png'
 
 
 const Footer = () => {

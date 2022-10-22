@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import '../assets/styles/header.scss'
-import Menu from '../assets/images/menu.svg'
+import Menu from '../assets/images/menu.png'
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -40,7 +40,7 @@ const Header = () => {
           <img 
             src={Menu} 
             alt="Hamburger Menu Icon" 
-            className='mobile'  
+            className='mobile menu'  
             onClick={ToggleMenu}
           />
           <a href="mailto:marvinezenwekwe@gmail.com" className='desktop'>
