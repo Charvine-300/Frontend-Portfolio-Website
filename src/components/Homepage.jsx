@@ -54,12 +54,9 @@ const Homepage = () => {
         id='project-slider'
       >
         <SwiperSlide>
-          <a className="project" target='_blank' title='View live project' href='https://qshop-assess.vercel.app/'>
+          <div className="project">
             <img src={Shopper} alt="Project Display" className='project-display' />
-            <div className="project-link">
-              <h3> Shopper </h3>
-              <img src={Arrow} alt="Link to live project" />
-            </div>
+            <h3> Shopper </h3>
             <p>
               An eStore for the Shopper brand, a fictional 
               retail company that provides a wide range of
@@ -67,37 +64,40 @@ const Homepage = () => {
               the globe. Built with React.js, Bulma, Vite frontend tool,
               and Redux Toolkit.
             </p>
-          </a>
+            <a target='_blank' title='View project live' href='https://qshop-assess.vercel.app/'>
+              <button className="in-touch"> View project live </button>
+            </a>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <a className="project" target='_blank' title='View live project' href='https://ipfind-tracker.vercel.app/' >
+          <div className="project">
             <img src={IPFind} alt="Project Display" className='project-display' />
-            <div className="project-link">
-              <h3> IPFind </h3>
-              <img src={Arrow} alt="Link to live project" />
-            </div>
+            <h3> IPFind </h3>
             <p>
               A web application built to track IP addresses. Providing information 
               like the location, Internet Service Provider and Timezone of the 
               aforementioned IP address. Built with Next.js, Vanilla CSS,
               and Axios.
             </p>
-          </a>
+            <a target='_blank' title='View project live' href='https://ipfind-tracker.vercel.app/'>
+              <button className="in-touch"> View project live </button>
+            </a>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <a className="project" target='_blank' title='View live project' href='https://chidera-ezenwekwe-lendsqr-fe-test.vercel.app'>
+          <div className="project" target='_blank' title='View live project' href='https://chidera-ezenwekwe-lendsqr-fe-test.vercel.app'>
             <img src={Lendsqr} alt="Project Display" className='project-display' />
-            <div className="project-link">
-              <h3> Lendsqr </h3>
-              <img src={Arrow} alt="Link to live project" />
-            </div>
+            <h3> Lendsqr </h3>
             <p>
               An application that powers lenders to build, 
               launch, and scale their digital lending business across 
               multiple channels, at the lowest cost. Built with React.js,
               Typescript, React Context API and SASS.
             </p>
-          </a>
+            <a target='_blank' title='View project live' href='https://chidera-ezenwekwe-lendsqr-fe-test.vercel.app'>
+              <button className="in-touch"> View project live </button>
+            </a>
+          </div>
         </SwiperSlide>
       </Swiper>
 

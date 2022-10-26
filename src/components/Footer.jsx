@@ -12,13 +12,13 @@ const Footer = () => {
       <footer>
         <h1> Chidera Ezenwekwe </h1>
         <div className="social-links">
-          <a target='_blank' href="https://www.twitter.com/EraOrd">
+          <a target='_blank' href="https://www.twitter.com/EraOrd" title='Twitter Account'>
             <img src={Twitter} alt="Twitter Account" />
           </a>
-          <a target='_blank' href="https://www.linkedin.com/in/chidera-ezenwekwe-a3738721b">
+          <a target='_blank' href="https://www.linkedin.com/in/chidera-ezenwekwe-a3738721b" title='LinkedIn Account'>
             <img src={Linkedin} alt="LinkedIn Account" />
           </a>
-          <a target='_blank' href="https://www.github.com/Charvine-300">
+          <a target='_blank' href="https://www.github.com/Charvine-300" title='GitHub Portfolio'>
             <img src={Github} alt="Github Portfolio" />
           </a>
         </div>
