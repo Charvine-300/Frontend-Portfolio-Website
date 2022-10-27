@@ -26,7 +26,7 @@ const Homepage = () => {
           building software with the following frontend 
           technologies, React.js, Next.js, Redux and many others.
         </p>
-        <a target='_blank' href="https://drive.google.com/file/d/1gnrV1o5LCe1fWDWCMsr9USrobGLdziZ-/view?usp=sharing">
+        <a target='_blank' href="https://drive.google.com/file/d/1-OZNNXrZq24MY8BZjYSHEghlbOTvCEMv/view?usp=sharing">
           <button className="in-touch"> My Resume </button>
         </a>
       </div>

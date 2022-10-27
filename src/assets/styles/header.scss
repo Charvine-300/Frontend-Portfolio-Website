@@ -106,7 +106,7 @@ ul {
 
 footer {
     @include container(90%, 100%, 30px auto);
-    @include flexboxWrap(row, space-between, center);
+    @include flexboxWrap(row, center, center);
 
     .social-links {
         a {
@@ -116,5 +116,9 @@ footer {
         img {
             @include container(30px, 30px, 0);
         }
+    }
+
+    @include landscapeSet {
+        justify-content: space-between;
     }
 }
