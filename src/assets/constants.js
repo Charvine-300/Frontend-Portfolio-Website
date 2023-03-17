@@ -25,13 +25,13 @@ export const projectList = [
         url: 'https://ipfind-tracker.vercel.app/', 
         description: ' A web application built to track IP addresses. Providing information like the location, Internet Service Provider and Timezone of the aforementioned IP address. Built with Next.js, Vanilla CSS, and Axios.'
     },
-    {
+    /*{
         id: 3, 
         name: 'Lendsqr', 
         img: Lendsqr,
         url: 'https://chidera-ezenwekwe-lendsqr-fe-test.vercel.app', 
         description: ' An application that powers lenders to build, launch, and scale their digital lending business across multiple channels, at the lowest cost. Built with React.js, Typescript, React Context API and SASS.'
-    },
+    },*/
     {
         id: 4, 
         name: 'Rick and Morty', 
