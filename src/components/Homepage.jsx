@@ -84,21 +84,6 @@ const Homepage = () => {
             </a>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="project" target='_blank' title='View live project' href='https://chidera-ezenwekwe-lendsqr-fe-test.vercel.app'>
-            <img src={Lendsqr} alt="Project Display" className='project-display' />
-            <h3> Lendsqr </h3>
-            <p>
-              An application that powers lenders to build, 
-              launch, and scale their digital lending business across 
-              multiple channels, at the lowest cost. Built with React.js,
-              Typescript, React Context API and SASS.
-            </p>
-            <a target='_blank' title='View project live' href='https://chidera-ezenwekwe-lendsqr-fe-test.vercel.app'>
-              <button className="in-touch"> View project live </button>
-            </a>
-          </div>
-        </SwiperSlide>
       </Swiper>
 
       {/* Button to view projects */}
