@@ -1,8 +1,6 @@
 import '../assets/styles/homepage.scss'
 import Shopper from '../assets/images/project_shopper.jpeg'
 import IPFind from '../assets/images/project_ipfind.jpeg'
-import Arrow from '../assets/images/learn_more.png'
-import Lendsqr from '../assets/images/project_lendsqr.jpeg'
 import AllProjects from '../assets/images/all_projects.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from 'react-router-dom'
@@ -26,7 +24,7 @@ const Homepage = () => {
           building software with the following frontend 
           technologies, React.js, Next.js, Redux and many others.
         </p>
-        <a target='_blank' href="https://drive.google.com/file/d/1mQO-NjqzqqHkAlLywyTT2dtIFO87sjFX/view?usp=sharing">
+        <a target='_blank' href="https://drive.google.com/file/d/1U5zA5zwhVJJx0EyI2EMRTVK2fKuOlbN2/view?usp=sharing">
           <button className="in-touch"> My Resume </button>
         </a>
       </div>
