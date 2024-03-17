@@ -20,9 +20,7 @@ const Homepage = () => {
           Helping companies build better, scalable software
         </h2>
         <p className="description">
-          I am a Frontend Developer with 2 years of experience in
-          building software with the following frontend 
-          technologies, React.js, Next.js, Redux and many others.
+        I am a dynamic and innovative front-end (web and mobile) developer with hands-on experience in crafting cutting-edge digital solutions. Armed with top-notch communication and collaboration skills, I excel in team environments, fostering seamless collaboration to drive projects forward. My keen attention to detail extends to thorough documentation and proficient product management, ensuring clarity and efficiency throughout the development lifecycle. Ready to leverage my expertise to elevate your team and deliver exceptional results in the ever-evolving digital landscape.
         </p>
         <a target='_blank' href="https://drive.google.com/file/d/1U5zA5zwhVJJx0EyI2EMRTVK2fKuOlbN2/view?usp=sharing">
           <button className="in-touch"> My Resume </button>
